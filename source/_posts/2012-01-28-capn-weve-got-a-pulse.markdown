@@ -39,7 +39,7 @@ After a quick break outside of web dev (my role at DoDreams did not include that
 I quickly learned that BlackBerry was a four-letter word and that what I had endured in the world of the big pixels with Internet Explorer was not as atrocious a situation as I had previously thought. It was pretty clear that if we could solve our cross-browser problems with a single iefix.css and a hacked in &lt;link/> tag then we would've been on cloud nine. But no. Oh no. Quite far from it. The world of mobile browsers is staggeringly overpopulated with different versions of the same browser, propertiary browsers, applications pretending to be browsers and, lastly and leastly, Opera Mini.
 
 ### Webkit != Webkit != Webkit.
-**TODO**
+**TODO:** Anecdote aboute Android vs Android
 
 ### But does it scale?!
 
@@ -49,21 +49,21 @@ This of course meant getting familiar with high availability setups, sticky sess
 
 ### Mobile design / UX
 
-One thing that became apparent during the last 12 months of my stay at Conmio was that tablets and higher end phones deserved and demanded special attention. You could basically do almost anything tech-wise with them as you could do on a desktop browser, but you of course had to take the input and size constraints into consideration when designing the user experience to fit non-desktop use.
+One thing that became apparent during the last 12 months of my stay at Conmio was that tablets and higher-end phones deserved and demanded special attention. You could basically do almost anything tech-wise with them as you could do on a desktop browser, but you of course had to take the input and size constraints into consideration when designing the user experience to fit non-desktop use.
 
-One thing that has and is currently breaking through on the UI front is javascript-driven UIs -- using the likes of [Backbone.js](http://www.backbonejs.com) or [Ember.js](http://www.emberjs.com). Lauri and I used Backbone quite successfully on a very rapidly developed site where we first did the tablet app from scratch and the iPhone/Android version was basically just configuring the layout while all of the application logic in javascript and backend could stay exactly as-is. I see great promise in this technology.
+One thing that has and is currently breaking through on the UI front is javascript-driven UIs -- using the likes of [Backbone.js](http://backbonejs.com) or [Ember.js](http://emberjs.com). Lauri and I used Backbone quite successfully on a very rapidly developed site where we first did the tablet app from scratch and the iPhone/Android version was basically just configuring the layout while all of the application logic in javascript and backend could stay exactly as-is. I see great promise in this technology.
 
-A technique has also started to stir the design circuits quite a lot and is heavily influenced by people's general lack of mobile design skills: responsive design. I feel that responsive design is nothing new, we've had [fluid layouts](http://forums.devarticles.com/programming-tools-11/what-is-a-fluid-layout-99.html) for ten years now and that "responsive design" is just fluid layouts + having blocks that fall underneath each other or go side-by-side depending on the screen real-estate available. And so far all the examples I've seen of responsive design make it apparent that most people doing it are just trying to make the sites somewhat more usable for smaller screens, but I feel that responsive design cannot beat proper mobile design. If you are only aiming to serve the iOS/Android market then you can get by with a responsive design, but "just ok" won't [win you awards](http://www.eppyawards.com/Content/Past_2011_Winners-28-.aspx).
+A technique has also started to stir the design circuits quite a lot and is heavily influenced by people's general lack of mobile design skills: responsive design. I feel that responsive design is nothing new, we've had [fluid layouts](http://forums.devarticles.com/programming-tools-11/what-is-a-fluid-layout-99.html) for ten years now and that "responsive design" is just fluid layouts + having blocks that fall underneath each other or go side-by-side depending on the screen real-estate available. And so far all the examples I've seen of responsive design make it apparent that most people doing it are just trying to make the sites somewhat more usable for smaller screens, but I feel that responsive design cannot beat proper mobile-targeted design. If you are only aiming to serve the iOS/Android market then you can get by with a responsive design, but "just ok" won't [win you awards](http://www.eppyawards.com/Content/Past_2011_Winners-28-.aspx).
 
 ## Been there, done that, have the t-shirt
 
-During the latter part of 2011 realized that I had grown quite saturated with web development and the repeating problems I've had to tackle on so many web platforms - pagination, making things line up perfectly, dealing with xbrowser issues, browser quirks, xss, xsrf, sql injection and so on. I decided to look around and see what's available. I looked at project management, team leader, programming, sysadmin, business intelligence, data mining and what have you. I went to job interviews and had some over the phone, in Finland, remote work, out of the country and so forth. But nothing seemed to match. Either the companies seemed fishy or I was not a match to what they were looking or the actual job activies described during the interview did not match what had been written on the job ad or something ad nauseam.
+During the latter part of 2011 realized that I had grown quite saturated with web development and the repeating problems I've had to tackle on so many web platforms - pagination, making things line up perfectly, dealing with xbrowser issues, browser quirks, xss, xsrf, sql injection and so on. I decided to look around and see what's available. I looked at openings for project management, team leader, programming, sysadmin, business intelligence, data mining and what have you. I went to job interviews and had some over the phone for in Finland, remote and out of the country work and so forth. But nothing seemed to match. Either the companies seemed fishy or I was not a match to what they were looking or the actual job activies described during the interview did not match what had been written on the job opening, &mdash; _ad nauseam_.
 
 ## Relex
 
-Then during a session of Battlestar Galatica Board Game two ex-colleagues from Dodreams (Matias Käkelä and [Iikka Niinivaara](http://www.linkedin.com/in/niinivaara)) told me about their new employer [Relex](http://www.relex.fi/) and how nice a place it is to work. And after a few weeks of scanning LinkedIn's "jobs you might be interested in" listings to no avail I noticed that one job that it suggested was an open position at Relex. I had a quick chat with Iikka and decided that based on the information I had it was worth a shot.
+Then during a session of Battlestar Galatica Board Game two ex-colleagues from Dodreams (Matias Käkelä and [Iikka Niinivaara](http://www.linkedin.com/in/niinivaara)) told me about their new employer [Relex](http://www.relex.fi/) and what nice a place it is. And after a few weeks of scanning LinkedIn's "jobs you might be interested in" listings to no avail I noticed that one job that it suggested was an open position at Relex. I had a quick chat with Iikka and decided that based on the information I had it was worth a shot.
 
-I sent my application via LinkedIn at around quarter to midnight and at seven AM I had an invitation to an interview and a few weeks later I had a job offer I was willing to sign on. The most important factor was the very versatile role described to me as what I could be and evolve as. A short description of it was "we have to make sure everything continues run - debug hardware, network, database and programming issues".
+I sent my application via LinkedIn at around quarter to midnight and at seven AM I had an invitation to an interview and a few weeks later I had a job offer I was willing to sign on. The most important factor was the very versatile role described to me as what I could be and evolve as. A short version of it is "we have to make sure everything continues run - debug hardware, network, database and programming issues".
 
 After two weeks at Relex I am really happy that the job description holds true and I've yet to have a boring day.
 
@@ -72,13 +72,17 @@ So that's my related professional career brought up-to-date.
 
 # Now for something completely different
 
-**TODO**
-
 ## StackOverflow
+
+**TODO**
 
 ## Anti-piracy vs better service
 
+**TODO**
 
+## BRCM & Silo404
+
+**TODO**
 
 
 
