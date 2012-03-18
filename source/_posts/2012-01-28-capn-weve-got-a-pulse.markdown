@@ -30,16 +30,23 @@ I also conducted my first tech job interview at e21, altho' it was a bachelor pa
 
 ## DoDreams
 
-I left the e21 to join [DoDreams](http://www.dodreams.com/) to do a hybrid role of Ruby on Rails/Python/C# developer and sysadmin. I took on new tech in the form of learning about Xen virtualization, integrating our Rails frontend to some propertiery backend game services, administering and troubleshooting our Python multithreaded game hubs. There was a lot to learn and I thrived on the experience and was glad of the challenges.
+I left the e21 to join [DoDreams](http://www.dodreams.com/) to do a hybrid role of Ruby on Rails/Python/C# developer and sysadmin. I took on new tech in the form of learning about Xen virtualization, integrating our Rails frontend to some proprietary backend game services, administering and troubleshooting our Python multithreaded game hubs. There was a lot to learn and I thrived on the experience and was glad of the challenges.
 
 
 ## Conmio
-After a quick break outside of web dev (my role at DoDreams did not include that much Rails frontend work) I joined forces with [Lauri Piispanen](http://www.sunky.org/) at [Conmio](http://www.conmio.com/) where I started my venture into the world of mobile web development. Working with Lauri was a great pleasure since for the first time in very many years I had a stable environment where I had a colleague that was vastly more experienced in the domain than I was. I had never worked with media companies and had done absolutely zero mobile web dev.
+After a quick break outside of web dev (my role at DoDreams did not include that much Rails frontend work) I joined forces with [Lauri Piispanen](http://lauripiispanen.github.com/) at [Conmio](http://www.conmio.com/) where I started my venture into the world of mobile web development. Working with Lauri was a great pleasure since for the first time in very many years I had a stable environment where I had a colleague that was vastly more experienced in the domain than I was. I had never worked with media companies and had done absolutely zero mobile web dev.
 
-I quickly learned that BlackBerry was a four-letter word and that what I had endured in the world of the big pixels with Internet Explorer was not as atrocious a situation as I had previously thought. It was pretty clear that if we could solve our cross-browser problems with a single iefix.css and a hacked in &lt;link/> tag then we would've been on cloud nine. But no. Oh no. Quite far from it. The world of mobile browsers is staggeringly overpopulated with different versions of the same browser, propertiary browsers, applications pretending to be browsers and, lastly and leastly, Opera Mini.
+I quickly learned that BlackBerry was a four-letter word and that what I had endured in the world of the big pixels with Internet Explorer was not as atrocious a situation as I had previously thought. It was pretty clear that if we could solve our cross-browser problems with a single iefix.css and a hacked in &lt;link/> tag then we would've been on cloud nine. But no. Oh no. Quite far from it. The world of mobile browsers is staggeringly overpopulated with different versions of the same browser, propertiary browsers, applications pretending to be browsers and, lastly, Opera Mini.
 
 ### Webkit != Webkit != Webkit.
-**TODO:** Anecdote aboute Android vs Android
+<pre>&lt;sidetrack></pre>
+<blockquote>
+One of the things that really bit me in the arse was the assumption that two webkit browsers would behave in an identical manner - especially if the two Android versions were identical. This assumption turns out to be false. I came across this oddity while developing some swipe ajax navigation on a demo branch and having used less than an hour to get it working on the iPhone (webkit) I spent the next 1,5 days trying to debug why it was not working on a Google Nexus (webkit). I literally went through each single line of JS code in the library we were using for swiping and ended up with a single line where the rendering was failing - and if I added a single alert(' '); before that line it would work. I tried everything from timeouts to intervals to no avail. Then finally during a game of NHL 11 one of my colleagues suggested trying the functionality on another Android (webkit) phone. It worked straight off the bat and without any clue as to why the -webkit-transitions in the other Android did not.
+<br/><br/>
+So remember: webkit != webkit != webkit.
+</blockquote>
+<pre>&lt;/sidetrack></pre>
+
 
 ### But does it scale?!
 
@@ -61,7 +68,7 @@ During the latter part of 2011 realized that I had grown quite saturated with we
 
 ## Relex
 
-Then during a session of Battlestar Galatica Board Game two ex-colleagues from Dodreams (Matias Käkelä and [Iikka Niinivaara](http://www.linkedin.com/in/niinivaara)) told me about their new employer [Relex](http://www.relex.fi/) and what nice a place it is. And after a few weeks of scanning LinkedIn's "jobs you might be interested in" listings to no avail I noticed that one job that it suggested was an open position at Relex. I had a quick chat with Iikka and decided that based on the information I had it was worth a shot.
+Then during a session of Battlestar Galatica Board Game two ex-colleagues from Dodreams ([Matias Käkelä](http://fi.linkedin.com/in/massive) and [Iikka Niinivaara](http://www.linkedin.com/in/niinivaara)) told me about their new employer [Relex](http://www.relex.fi/) and what nice a place it is. And after a few weeks of scanning LinkedIn's "jobs you might be interested in" listings to no avail I noticed that one job that it suggested was an open position at Relex. I had a quick chat with Iikka and decided that based on the information I had it was worth a shot.
 
 I sent my application via LinkedIn at around quarter to midnight and at seven AM I had an invitation to an interview and a few weeks later I had a job offer I was willing to sign on. The most important factor was the very versatile role described to me as what I could be and evolve as. A short version of it is "we have to make sure everything continues run - debug hardware, network, database and programming issues".
 
@@ -69,33 +76,8 @@ After two weeks at Relex I am really happy that the job description holds true a
 
 So that's my related professional career brought up-to-date.
 
+# Upcoming topics:
 
-# Now for something completely different
-
-## StackOverflow
-
-**TODO**
-
-## Anti-piracy vs better service
-
-**TODO**
-
-## BRCM & Silo404
-
-**TODO**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* StackOverflow
+* Anti-piracy vs better service [revisited]
+* BRCM & Silo404

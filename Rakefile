@@ -6,7 +6,7 @@ require "stringex"
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
 ssh_user       = "jwikholm@jw.fi"
 ssh_port       = "22"
-document_root  = "~/domains/noo.se/public_html/jw"
+document_root  = "~/public_html/"
 rsync_delete   = false
 deploy_default = "rsync"
 
