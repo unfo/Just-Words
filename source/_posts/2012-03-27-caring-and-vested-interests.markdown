@@ -47,7 +47,7 @@ Continue this for a few moments and you will have people with very hazy prioriti
 
 Skip a few iterations of Where's My To-do stickers and Wheel of Misfortune and this will end up in "let's make/buy an app for this".
 
-> Q: What's the most important part of a to-do app apart from being able to tell who's ticket this is?<br/>
+> Q: What's the most important part of a to-do app apart from being able to tell whose ticket this is?<br/>
 > A: **Priority**
 
 Fast-forward a few months and you will have 80 tickets in High, 30 in Normal and 5 in Low - and 5 out of those 5 were the devs' own tickets.
