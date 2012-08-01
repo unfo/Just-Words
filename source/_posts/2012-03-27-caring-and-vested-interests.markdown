@@ -6,7 +6,8 @@ comments: true
 categories: 
 published: false
 ---
-h1. Caring and vested interests
+
+# Caring and vested interests
 
 **Caveat:** Most of my experience and my close friends' experiences are from small-medium companies, not giant corporations that can just throw >resources> at problems.
 
@@ -16,13 +17,15 @@ We have people whose only job is to babysit other people's tasks and making sure
 
 The main reason this is a big problem in our industry is that tasks are almost exclusively wholly virtual: written atop a 30 email long FWD:RE:RE:RE:FWD:RE thread, input into a specific app made for tracking tasks like Trac or JIRA, or - worst case scenario - present only in the minds of the tasker and taskee.
 
-If you go to a cobbler and just keep piling pairs of shoes upon another it has a concrete effect on the real world. You run out of either space or common decency depending on how your soul is built. And there is no chance that either the cobbler or his manager and/or front-of-house will ever forget or misinterpret the amount of work still left undone.
+<!-- more -->
+
+If you go to a shoemaker and just keep piling pairs of shoes upon another it has a concrete effect on the real world. You run out of either space or common decency.. And there is no chance that either the shoemaker or his manager and/or front-of-house will ever forget or misinterpret the amount of work still left undone.
 
 On the other hand if you are a local musician’s manager and keep getting people coming into your shop requesting "I want you to compose me song to cheer me up" who are willing to pay for that you might end up with an ever increasing queue of songs to compose without any sort of physical manifestation of whether this request is a bigger than that.
 
-As the musician's manager you might start to develop a good sense of 'a happy song' takes 5 days and 'fusion jazz with a mix of reggae and trip-hop' takes 3 weeks and up and thus you can start giving clients some sort of estimations on when they could perhaps start expecting their song to be done.
+As the musician's manager you might start to develop a good sense that 'a happy song' takes 5 days and 'fusion jazz with a mix of reggae and trip-hop' takes 3 weeks and up and thus you can start giving clients some sort of estimations on when they could perhaps start expecting their song to be done.
 
-For most of the time I've been involved with most of the people, myself included, have had a kind of a mass delusion that **software engineering** with emphasis on **engineering** is more akin to the former job instead of the hap-hazard, messy, touchy-feely world of creative art.
+For most of the time I've been involved with most of the people, myself included, have had a kind of a mass delusion that software engineering &mdash; with emphasis on **engineering** &mdash; is more akin to the former job instead of the hap-hazard, messy, touchy-feely world of creative art.
 
 I would venture to postulate that this might have something to do with the ancestry of our field where the highly educated and very smart mathematicians and physicists were the pioneers of using computers for, well, computing equations and such with very, very strict time limits and requirements. And so we, the grandson of the Grand Duke of Hyperion (only 14 generations down and four times removed, and nevermind that thing with the cousins) believe that the blood of the Ancient Royalty still beats coldly in our veins.
 
@@ -30,11 +33,11 @@ It does not.
 
 We are that musician and his manager. Our manager has two options with regards to payment: a set fee upon completion or an hourly price. Well how long will any given song take? No idea. Well a fixed price then. Fixed at what price? No idea. Make something up?
 
-When the manager finally sets a price it is up to the musician to make it profitable - only you cannot push creativity.
+When the manager finally sets a price it is up to the musician to make it profitable &mdash; only you cannot push creativity.
 
 And now to stop pushing my analogy till it breaks totally.
 
-h2. What you asked for, when you wanted it and a low price!
+## What you asked for, when you wanted it and a low price!
 
 Cake: ( ) Have it, ( ) Eat it.
 
@@ -46,9 +49,8 @@ Continue this for a few moments and you will have people with very hazy prioriti
 
 Skip a few iterations of Where's My To-do stickers and Wheel of Misfortune and this will end up in "let's make/buy an app for this".
 
-Q: What's the most important part of a to-do app apart from being able to tell who's ticket this is?
-
-A: **Priority**
+> Q: What's the most important part of a to-do app apart from being able to tell who's ticket this is?
+> A: **Priority**
 
 Fast-forward a few months and you will have 80 tickets in High, 30 in Normal and 5 in Low - and 5 out of those 5 were the devs' own tickets.
 
@@ -65,21 +67,21 @@ So that's 20 man-days and we just happen to have 10 __engineers__ so in two days
 Right.
 
 All developers I know have been faced with a bug report that at first seems like it's a typo somewhere but ends up needing a re-write of one of the core modules.
-Bug report: When I do X I get 3.13 as the result instead of 3.14.
-Original estimate: 0.5 hours
-Actual time: 0.5 hours
-Resolution: Changed the rounding options in file X.
+
+> Bug report: When I do X I get 3.13 as the result instead of 3.14.
+> Original estimate: 0.5 hours
+> Actual time: 0.5 hours
+> Resolution: Changed the rounding options in file X.
 
 It could've as easily have been:
 
-Actual time: 53 hours
-Resolution: The fourth level dependency of this library we use to do Y in our software has a problem with IEEE floating point numbers and it had to be recompiled against the production server's ancient headers by hand which failed because of Z and then we needed to reimplement some of the API because of a version mismatch.
+> Actual time: 53 hours
+> Resolution: The fourth level dependency of this library we use to do Y in our software has a problem with IEEE floating point numbers and it had to be recompiled against the production server's ancient headers by hand which failed because of Z and then we needed to reimplement some of the API because of a version mismatch.
 
 The point is you can rarely truly know.
 
-Q: What the hell does caring have to do with any of this?
-
-A: **Quality**.
+> Q: What the hell does caring have to do with any of this?
+> A: **Quality**.
 
 Caring leads to commitment and commitment can lead to either great quality or not caring anymore.
 
@@ -89,18 +91,18 @@ The key factor here is the whether the developer feels like he is getting as muc
 
 If you have a caring developer who commits and gets rewarded both in financial terms as with joys of the mind for his work it will lead to great quality work and a very healthy and, probably, long-lasting mutually respecting relationship. Yay.
 
-If you have a caring developer who commits and just gets asked for 'a little more', 'just temporarily', 'just this once', 'until X happens' day after day it will lead to a plummet of personal motivation or, if the dev is so committed as to weather any blows, to even more attempts to get rewarded which would eventually justify his spending so much of himself.
+If you have a caring developer who commits and just gets asked for 'a little more', 'just temporarily', 'just this once', 'until X happens' day after day it will lead to a plummet of personal motivation or &mdash; if the dev committed enough to weather any storm &mdash; to even more attempts to get rewarded which would eventually justify his spending so much of himself.
 
-There is only so much a single person can give and if you are still burning your energy at full blast when you run out of fuel you will crash quite hard and end up in burn-out mode. If you happen to notice the blinking light on the dashboard and see your energy levels depleting it is possible to do an emergency jetting of commitment, caring and motivation - to cut loose - and it just might save you from having to recoup as heavily as a full blown burnout requires.
+There is only so much a single person can give. If you are still burning your energy at full blast when you run out of fuel you will crash quite hard and end up in burn-out mode. If you happen to notice the blinking light on the dashboard and see your energy levels depleting it is possible to do an emergency jetting of commitment, caring and motivation - to cut loose - and it just might save you from having to recoup as heavily as a full blown burnout requires.
 
 Regardless of how you got to the 404 page of motivation dot com, the quality of your work just took a big nose dive. Should your work ethic so suggest, it is still possible to do decent quality work if required, but it just takes vast amounts of energy.
 
 The most common route to not caring is when your own interests do not align with the company's interests.
 When you have vested interests it simply put means that whatever is the best thing for **yourself** to do is also the best thing for the company.
 
-This boils down to: if what you do **directly** affects the company bottom-line in a positive manner then you have vested interests.
+This boils down to: if what you do **directly** affects the company bottom line in a positive manner then you have vested interests.
 
-Note the directly. If your work is indirect with regards to the bottom-line then it is much easier to have misaligned agendas.
+Note the directly. If your work is indirect with regards to the bottom line then it is much easier to have misaligned agendas.
 
 I can give you both a negative and positive example from my own work history.
 
