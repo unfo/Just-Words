@@ -49,7 +49,7 @@ Continue this for a few moments and you will have people with very hazy prioriti
 
 Skip a few iterations of Where's My To-do stickers and Wheel of Misfortune and this will end up in "let's make/buy an app for this".
 
-> Q: What's the most important part of a to-do app apart from being able to tell who's ticket this is?
+> Q: What's the most important part of a to-do app apart from being able to tell who's ticket this is?<br/>
 > A: **Priority**
 
 Fast-forward a few months and you will have 80 tickets in High, 30 in Normal and 5 in Low - and 5 out of those 5 were the devs' own tickets.
@@ -68,19 +68,19 @@ Right.
 
 All developers I know have been faced with a bug report that at first seems like it's a typo somewhere but ends up needing a re-write of one of the core modules.
 
-> Bug report: When I do X I get 3.13 as the result instead of 3.14.
-> Original estimate: 0.5 hours
-> Actual time: 0.5 hours
+> Bug report: When I do X I get 3.13 as the result instead of 3.14.<br/>
+> Original estimate: 0.5 hours<br/>
+> Actual time: 0.5 hours<br/>
 > Resolution: Changed the rounding options in file X.
 
 It could've as easily have been:
 
-> Actual time: 53 hours
+> Actual time: 53 hours<br/>
 > Resolution: The fourth level dependency of this library we use to do Y in our software has a problem with IEEE floating point numbers and it had to be recompiled against the production server's ancient headers by hand which failed because of Z and then we needed to reimplement some of the API because of a version mismatch.
 
 The point is you can rarely truly know.
 
-> Q: What the hell does caring have to do with any of this?
+> Q: What the hell does caring have to do with any of this?<br/>
 > A: **Quality**.
 
 Caring leads to commitment and commitment can lead to either great quality or not caring anymore.
