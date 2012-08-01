@@ -4,10 +4,8 @@ title: "Caring and vested interests"
 date: 2012-07-31 21:45
 comments: true
 categories: 
-published: false
+published: true
 ---
-
-# Caring and vested interests
 
 **Caveat:** Most of my experience and my close friends' experiences are from small-medium companies, not giant corporations that can just throw >resources> at problems.
 

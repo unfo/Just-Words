@@ -17,6 +17,8 @@ Having written my first snippet of HTML 3.2 back in '96 and then after a few yea
 
 I am now taking a step away from web development, even tho' the field is full of potential and it is changing at such a rapid pace it would probably be prudent to stick with it and especially master javascript as it is surfacing as the generalist language with which you can do almost anything.
 
+<!-- more -->
+
 Regardless of the fruit that could be reaped in this field, I feel as though I need to try something new. This is just a matter of personal development and finding interesting challenges.
 
 ## e21
